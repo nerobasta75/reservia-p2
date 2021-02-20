@@ -1,0 +1,506 @@
+.widthmain {
+    max-width: 1500px;
+    margin: 0 auto;
+    }
+    
+    body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+   }
+   /*Header*/
+   
+    .header img {
+    float: left;
+    padding-top: 1.4rem;
+   }
+   /* Nav */
+    nav{
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .navtop {
+    color: #0065FC;
+    border-top: #ffffff 0.1rem solid;
+    padding: 2rem;
+    text-decoration: none;
+   }
+    a:hover {
+    border-top: #0065FC 0.1rem solid;
+    position: over;
+   }
+    .navtop:last-child {
+    font-weight: bolder;
+    color:#0065FC;
+    display: flex;
+   }
+   
+    /* Searchbar */
+   
+    .iconinput, .iconbar, .searchbar input{
+    border: #d2d2d2 solid 0.1px;
+    border-left: none;
+    }
+   
+    .searchbar, .iconinputs{
+    display: flex;
+   }
+   
+    .searchbar button {
+    background: #0065FC;
+    background-size: ;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: none;
+    width: 130px;
+    Height: 48px;
+    cursor: pointer;
+   }
+    .iconbar {
+    font-size: 1.2rem;
+    background-color: #F2F2F2;
+    padding: 0.8rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+    
+   }
+    .searchbar input {
+    color: black;
+    width: 240px;
+    Height: 48px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+   }
+    input::placeholder{
+    color: black;
+    font-weight: bold;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+   }
+   
+    /* Filters */
+   
+    .Filters {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center; 
+   } 
+    .iconfilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    min-height: 3.3rem;
+    min-width: 3.5rem;
+   }
+    .iconfilter {
+    color:#0065FC;
+    background-color: #DEEBFF;
+    position:relative;
+    left: 55px;
+    font-size: 1.2rem;
+    margin-left: -32px;
+    margin-top: 1rem;
+   }
+     
+    .Filters p {
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    margin-top: ;
+    font-weight: bold;
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    display: flex;
+    padding-left: 58px;
+    padding-right: 10px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border: 2px solid #d9d9d9;
+   } 
+   
+   /* Hosting head */
+   
+    .hostinghead {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+   }
+   
+    .hostingTitle{
+    margin-left: 1.5rem;
+    padding-top: 3rem;
+   }
+   
+   .fa-info {
+    font-size: 1rem;
+    color: #0065FC;
+    border: solid #E0E0E0 1px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    text-align: center;
+   }
+   
+   .hostinghead p:last-child {
+    margin-left: 1rem;
+   }
+   
+   #hosttitle {
+     margin-top: -0.6rem;
+   }
+   /* Hosting */
+     
+    .hosting {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    
+   }
+   
+    .hostingHeader {
+    margin-left: 1.8rem;
+    margin-top: 5%;  
+    margin-bottom: -1%;
+    font-size: 1.2rem;
+   }
+   
+    .hostingMain {
+    background: #E8E8E8;
+    height: 720px;
+    width: 70%;
+    border-top-right-radius: 1rem; 
+    border-bottom-right-radius: 1rem; 
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-size: medium;
+    column-gap: 2rem;
+   }
+   
+    .figure, .imagehosting {
+    height: 60%;
+    width: 97%;
+    object-fit: cover;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+    border-top-right-radius: 1.8rem;
+    border-top-left-radius: 1.8rem;
+   
+   }
+    
+    .hostingFigure {
+    border-top-right-radius: 2rem; 
+    border-bottom-right-radius: 2rem; 
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 15rem;
+    background: white;
+    background-size: 4rem;
+    width: 31%;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+   }  
+    .figure {
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    box-shadow: 0 0 20px #0000002e;
+   }
+    .hostingPrice {
+     display: flex;
+     align-items: center;
+     margin-top: -2rem;
+     margin-left: 1rem; 
+   } 
+   
+   .hostingPrice h3 {
+     padding-left: 0.5rem;
+     align-items: center;
+     padding-bottom: 0.3rem;
+     
+   }
+   .iconstar {
+     color: #0065FC;
+     margin-bottom: 0.4rem;
+     margin-to
+   }
+   .iconstarempty {
+   color: #D8D8D8;
+   }
+   .hostingFigCaption { 
+     margin-left: 1rem;
+     margin-top: -1rem;
+   }
+    .hostingStar {
+    margin-left: 1rem;
+    margin-top: -1rem;
+   }
+    .hostingArticle {
+     display: flex;
+     justify-content: space-between;
+     padding-right: 1rem;
+     padding-left: 1rem;
+     margin-top: -1.3rem;
+     
+   }
+   
+   
+   .hostingArticle2 {
+     display: flex;
+     justify-content: space-between;
+     padding-right: 1rem;
+     padding-left: 1rem;
+   }
+   
+   .seemore {
+     display: flex;
+     font-weight: bold;
+     cursor: pointer;
+     margin-left: 2rem;
+     font-size: 1.1rem;
+    margin-top: 1.3rem;
+   }
+   /* Aside title*/
+   
+    .asideMain {
+    background: #E8E8E8;
+    height: 720px;
+    width: 27.5%;
+    border-top-right-radius: 1rem; 
+    border-bottom-right-radius: 1rem; 
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+   }
+   
+   .asideHeader {
+    display: flex; 
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    margin-top: 4%;
+    margin-left: 1.8rem;
+   }
+   
+   .chart {
+    margin-left: 7.8rem;
+    font-size: 1.4rem;
+    margin-top: 6%;
+    margin-right: 1.5rem;
+   }
+   #asidetitle {
+      
+   }
+   
+   /* Aside hosting*/ 
+   
+    .asideFigure {
+    border-top-right-radius: 2rem; 
+    border-bottom-right-radius: 2rem; 
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    height: 10.6rem;
+    width: 86%;
+    background: white;
+    background-size: 4rem; 
+    box-shadow: 0 0 20px #0000002e;
+    margin-left: 1.8rem;
+    margin-bottom: 2rem;
+    }
+   
+    .Aside {
+     display: flex;
+   }
+   
+    .asideHost {
+    padding-left: 1rem;
+    
+   
+   }
+   
+    .asideHost:last-child {
+    margin-top: -0.4rem;
+   
+   }
+   
+   
+    .asideFigure img {
+    object-fit: cover;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    height: 10rem;  
+    width: 40%;
+    border-top-left-radius: 1.8rem;
+    border-bottom-left-radius: 1.8rem; 
+    }
+   
+    .asideStar {
+      font-size: small;
+      display: flex;
+      padding-top: 2.1rem;
+    }
+   
+    /* activity */
+    
+   .activity {
+   margin-top: 4rem;
+   
+   }
+   
+    .mainbloc {
+    display: flex; 
+    justify-content: space-between;
+   }
+     
+   /* vieux port */
+   
+   .vieuxport {
+     box-shadow: 0 0 20px #0000002e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+    
+   }
+   
+    .activityIMGBIG {
+     width: fit-content;
+     height: 33rem;
+     object-fit: cover;
+     background-color: transparent;
+     box-shadow: 0 0 1px #0000002e;
+     border-top-left-radius:  1rem;
+     border-top-right-radius:  1rem;
+     display: flex;
+    width: ;
+      
+   }
+   
+   /*fort de pomègues */
+    
+   .bloc1 {
+     flex-direction: column;
+   }
+   
+   .fortde {
+     box-shadow: 0 0 20px #0000002e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+   }
+   
+    .activityIMG2 {
+     width: 20rem;
+     height: 15rem;
+     object-fit: cover;
+     border-top-left-radius:  1rem;
+     border-top-right-radius:  1rem;
+   }
+   
+   /* îles du frioul */
+   
+   .ilesdu {
+     
+     box-shadow: 0 0 20px #0000002e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+     margin-top: 3rem;
+   }
+   
+   .activityIMG3 {
+     width: 20rem;
+     height: 11.2rem;
+     object-fit: cover;
+     border-top-left-radius:  1rem;
+     border-top-right-radius:  1rem;
+   }
+   
+   /* parc national */
+   
+   .parcNational {
+     box-shadow: 0 0 20px #0000002e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .activityIMGBIG {
+     width: 22rem;
+     height: 33rem;
+     object-fit: cover;
+     background-color: transparent;
+     box-shadow: 0 0 1px #0000002e;
+     border-top-left-radius:  1rem;
+     border-top-right-radius:  1rem;
+     display: flex;
+   }
+   
+   /* Notre Dame, Parc Longchamp */
+   
+   .Notre-Dame {
+     
+     box-shadow: 0 0 20px #0000002e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+   } 
+   
+   .parclongchamp {
+     box-shadow: 0 0 20px #0000002e;
+     border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+     margin-top: 3rem;
+   }
+   
+   
+   .activityIMG4 {
+     width: 20.5rem;
+     height: 13.1rem;
+     object-fit: cover;
+     border-top-left-radius: 1rem;
+     border-top-right-radius: 1rem;
+   }
+   
+   
+   .activityname {
+     padding-left: 1rem;
+     font-size: medium;
+   }
+   
+    /* footer */
+   
+   .footer {
+    padding-top: 1rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background: #E8E8E8;
+    height: 12rem;
+    width: 100%;
+    
+   }
+   
+   .foot-about {
+    margin-left: 12rem; 
+   }
+   
+   .foot-hosting {
+   margin-left: -12rem;
+   }
+   
+   .foot-assistance {
+     margin-left: -12rem;
+   }
